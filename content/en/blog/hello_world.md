@@ -1,9 +1,9 @@
 ---
-author: "Hugo Authors"
-title: "Markdown Syntax Guide"
+author: "Prashant Yadav"
+title: "How to create Hugo blog"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags: ["markdown", "css", "html"]
-date: 2021-07-14
+date: 2022-07-14
 thumbnail: https://picsum.photos/id/1019/500/200
 ---
 
@@ -42,7 +42,7 @@ Set theme = 'blist' in config.toml
 Run npm start to start your local server
 
 
-# Add Github pages repo to the public folder.
+## Add Github pages repo to the public folder.
 git submodule add -f https://github.com/prashant-142/prashant.git public
 
 Build hugo blist theme and push changes to public folder for deployment
@@ -54,6 +54,15 @@ hugo new blog/hello_world.md
 Create First Page
 hugo new page/about.md
 
+## Helpful Links
+
+[Blogging with Hugo and Github Actions](https://www.youtube.com/watch?v=aqAaYZOqiTw)
+
+[Automatically deploy Hugo site to GitHub pages with actions](https://xdeb.org/post/2023/deploy-hugo-github-pages-actions/)
+
+[Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions](https://theplaybook.dev/docs/deploy-hugo-to-github-pages/)
+
+[Using GitHub Pages with Actions to deploy Hugo sites in seconds - Tommy Byrd // HugoConf 2022](https://www.youtube.com/watch?v=Z_7RIuf_Z-Q)
 
 
 
